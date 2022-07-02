@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="83520" started-at="2022-07-02T14:09:23 IST" finished-at="2022-07-02T14:10:47 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@4516af24]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="83520" started-at="2022-07-02T14:09:23 IST" finished-at="2022-07-02T14:10:47 IST">
+      <class name="runner.CucumberRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.CucumberRunner@4516af24]" name="setUpClass" is-config="true" duration-ms="477" started-at="2022-07-02T14:09:23 IST" finished-at="2022-07-02T14:09:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2cfe272f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="preCondition" is-config="true" duration-ms="6661" started-at="2022-07-02T14:09:24 IST" finished-at="2022-07-02T14:09:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@4516af24]" name="runScenario" duration-ms="8801" started-at="2022-07-02T14:09:30 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-02T14:09:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive flow for creating a lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create Lead functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="postCondition" is-config="true" duration-ms="136" started-at="2022-07-02T14:09:39 IST" finished-at="2022-07-02T14:09:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="preCondition" is-config="true" duration-ms="4405" started-at="2022-07-02T14:09:39 IST" finished-at="2022-07-02T14:09:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@4516af24]" name="runScenario" duration-ms="14238" started-at="2022-07-02T14:09:44 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-02T14:09:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive flow for Edit Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Edit Lead Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="postCondition" is-config="true" duration-ms="166" started-at="2022-07-02T14:09:58 IST" finished-at="2022-07-02T14:09:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="preCondition" is-config="true" duration-ms="4387" started-at="2022-07-02T14:09:58 IST" finished-at="2022-07-02T14:10:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@4516af24]" name="runScenario" duration-ms="663" started-at="2022-07-02T14:10:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-02T14:10:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with positive credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality for leaftaps application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="postCondition" is-config="true" duration-ms="79" started-at="2022-07-02T14:10:03 IST" finished-at="2022-07-02T14:10:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="preCondition" is-config="true" duration-ms="4713" started-at="2022-07-02T14:10:03 IST" finished-at="2022-07-02T14:10:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@4516af24]" name="runScenario" duration-ms="929" started-at="2022-07-02T14:10:08 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-02T14:10:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with positive credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality for leaftaps application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="postCondition" is-config="true" duration-ms="86" started-at="2022-07-02T14:10:09 IST" finished-at="2022-07-02T14:10:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="preCondition" is-config="true" duration-ms="4202" started-at="2022-07-02T14:10:09 IST" finished-at="2022-07-02T14:10:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@4516af24]" name="runScenario" duration-ms="509" started-at="2022-07-02T14:10:13 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-02T14:10:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with negative credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality for leaftaps application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="postCondition" is-config="true" duration-ms="87" started-at="2022-07-02T14:10:14 IST" finished-at="2022-07-02T14:10:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="preCondition" is-config="true" duration-ms="4209" started-at="2022-07-02T14:10:14 IST" finished-at="2022-07-02T14:10:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@4516af24]" name="runScenario" duration-ms="567" started-at="2022-07-02T14:10:18 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-02T14:10:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with negative credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality for leaftaps application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="postCondition" is-config="true" duration-ms="90" started-at="2022-07-02T14:10:18 IST" finished-at="2022-07-02T14:10:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="preCondition" is-config="true" duration-ms="4492" started-at="2022-07-02T14:10:19 IST" finished-at="2022-07-02T14:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@4516af24]" name="runScenario" duration-ms="529" started-at="2022-07-02T14:10:23 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-02T14:10:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with negative credential"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality for leaftaps application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="postCondition" is-config="true" duration-ms="84" started-at="2022-07-02T14:10:24 IST" finished-at="2022-07-02T14:10:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="preCondition" is-config="true" duration-ms="4963" started-at="2022-07-02T14:10:24 IST" finished-at="2022-07-02T14:10:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@4516af24]" name="runScenario" duration-ms="13001" started-at="2022-07-02T14:10:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-02T14:10:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive flow for Merge Leads"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Merge Leads Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:runner.CucumberRunner@4516af24]" name="postCondition" is-config="true" duration-ms="122" started-at="2022-07-02T14:10:42 IST" finished-at="2022-07-02T14:10:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.CucumberRunner@4516af24]" name="tearDownClass" is-config="true" duration-ms="4859" started-at="2022-07-02T14:10:42 IST" finished-at="2022-07-02T14:10:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.CucumberRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

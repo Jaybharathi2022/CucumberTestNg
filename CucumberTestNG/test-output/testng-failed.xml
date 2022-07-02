@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="crmsfa"/>
+  <parameter name="url" value="http://leaftaps.com/opentaps/control/login"/>
+  <parameter name="username" value="DemoSalesManager"/>
+  <listeners>
+    <listener class-name="testNGHelpers.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testNGTests.CreateLead">
+        <methods>
+          <include name="postCondition"/>
+          <include name="setFileName"/>
+          <include name="createLead" invocation-numbers="0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testNGTests.CreateLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
